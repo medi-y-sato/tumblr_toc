@@ -1,0 +1,8 @@
+dependencies:
+  override:
+    - npm install -g eslint
+deployment:
+  production:
+    branch: master
+    commands:
+      - git subtree push --prefix app origin gh-pages
