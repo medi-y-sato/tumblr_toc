@@ -4,7 +4,7 @@
 
 ```html
 {block:PermalinkPage}
-<script src="./tumblr_toc.js"></script>
+<script src="http://medi-y-sato.github.io/tumblr_toc/tumblr_toc.min.js"></script>
 <div id="tumblr_toc">TOC</div>
 {/block:PermalinkPage}
 ```
