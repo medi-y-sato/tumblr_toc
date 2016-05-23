@@ -8,6 +8,6 @@ deployment:
   production:
     branch: master
     commands:
-      - git subtree push --prefix app origin gh-pages
       - uglifyjs tumblr_toc.js -o lib/tumblr_toc.min.js --source-map ./lib/tumblr_toc.js.map
       - cp tumblr_toc.js lib/tumblr_toc.js
+      - git subtree push --prefix lib origin gh-pages
