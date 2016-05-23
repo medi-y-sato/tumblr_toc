@@ -1,0 +1,16 @@
+{
+  "name": "tumblr_toc",
+  "version": "1.0.0",
+  "description": "toc generator for tumblr",
+  "main": "tumblr_toc.js",
+  "scripts": {
+    "test": "eslint tumblr_toc.js"
+  },
+  "author": "medi-y-sato",
+  "license": "MIT",
+  "devDependencies": {},
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/medi-y-sato/tumblr_toc.git"
+  }
+}
