@@ -1,6 +1,8 @@
 dependencies:
   override:
     - npm install -g eslint
+  cache_directories:
+    - "node_modules"
 deployment:
   production:
     branch: master
