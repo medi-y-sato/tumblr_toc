@@ -1,6 +1,7 @@
 dependencies:
   override:
     - npm install -g eslint
+    - npm install -g uglifyjs
   cache_directories:
     - "node_modules"
 deployment:
@@ -8,3 +9,5 @@ deployment:
     branch: master
     commands:
       - git subtree push --prefix app origin gh-pages
+      - uglifyjs tumblr_toc.js -o lib/tumblr_toc.min.js --source-map ./lib/tumblr_toc.js.map
+      - cp tumblr_toc.js lib/tumblr_toc.js

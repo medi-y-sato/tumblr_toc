@@ -9,8 +9,8 @@
   "author": "medi-y-sato",
   "license": "MIT",
   "devDependencies": {},
-  "repository" :
-  { "type" : "git"
-  , "url" : "https://github.com/medi-y-sato/tumblr_toc.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/medi-y-sato/tumblr_toc.git"
   }
 }
