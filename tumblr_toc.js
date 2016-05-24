@@ -1,6 +1,5 @@
 var Tumblr_Toc = Tumblr_Toc || {}
 'use strict'
-querySelector='div.body-text'
 
 window.onload = function() {
     Tumblr_Toc.targetSection = document.querySelector(
